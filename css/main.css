@@ -1,0 +1,66 @@
+body {
+	font-family: Source Sans Pro;
+
+}
+.headerAll {
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+.headerLeft {
+	border:2px solid orange;
+	display: inline-block;
+}
+.headerRight {
+	border:2px solid teal;
+	text-align: right;
+}
+.headerTools {
+	display: inline-block;
+	width: 20%;
+}
+.headerTools li {
+	display: inline-block;
+}
+.fa {
+	margin-left:10px;
+}
+.searchBox {
+	width:60%;
+}
+.gitCat {
+	padding-left: 30px;
+}
+#miniPhoto {
+	height: 20px;
+	width: 20px;
+}
+.blankleft {
+	border:2px solid black;
+}
+.left {
+	border:2px solid blue;
+}
+.blankright {
+	border:2px solid purple;
+}
+.right {
+	border:2px solid red;
+}
+#flowerPhoto {
+	width:85%;
+	border-radius:6px;
+}
+.tabButton {
+	display: inline;
+	width: 100%;
+}
+button {
+	width:80px;
+	background-color: #F3F3F3;
+	border-radius: 7px;
+}
+ul {
+	width:75%;
+}
+
+
