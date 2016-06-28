@@ -9,7 +9,6 @@
 			<link href="reset.css">
 		<!--My CSS Sheet-->
 			<link type="text/css" rel="stylesheet" href="css/main.css">
-		
 		<!--FontAwesome-->
 			<script src="https://use.fontawesome.com/ea5eeb1623.js"></script>
 	</head>
@@ -17,7 +16,7 @@
 		<main>
 			<header>
 				<div class="row headerAll">
-					<div class="col-lg-9 headerLeft">
+					<div class="col-lg-8 headerLeft">
 						<img src="images/mark-github.svg" class="gitCat"/>
 							<input class="searchBox" placeholder="Search GitHub"></input>
 								<ul class="headerTools">
@@ -40,28 +39,98 @@
 				</div>
 			</header>
 
+
+
 		<div class="container">
-			<div class="col-lg-1 blankleft"><h6>left blank</h6></div>
+			<div class="col-lg-1 blankleft"><!--<h6>left blank</h6>--></div>
 			<div class="col-lg-3 left column">
-				<img src="images/flower.jpeg" id="flowerPhoto"/>
-				<h3>Adam Jones</h3>
-				<h5>adamtjones</h5>
-				<h6>this column is User API though</h6>
+				<div class="cincinnati">
+				</div>
+				<div class="Uglyduck">
+				</div>
+				<div class="Unicorn">
+				</div>
+				<div class="Unicode">
+				</div>
+				<div class="UC">
+				</div>
+				<div class="Unicycle">
+				</div>
+				
+				<div class="Social">
+
+				<div class="Universe">
+				</div>
+				<div class="Uhaul">
+				</div>
+			</div>
+			</div>
+<!--Copy of Bootstrap Tab Docs info:
+<div>
+  Nav tabs
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+  </ul>
+
+  Tab panes
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+  </div>
+</div>-->
+			<div class="col-lg-8 right column">
+				<div class="tabButton" >
+					<ul class="nav nav-tabs" role="tablist" id="myTabs">
+						<li role="presentation" class="active"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab"><img src="images/diff-added.svg"> Contributions</a></li>
+						<li role="presentation"><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab"><img src="images/repo.svg"> Repositories</a></li><!--removed class="active"-->
+						<li role="presentation"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab"><img src="images/rss.svg"> Public activity</a></li><!--removed class="active"-->
+					</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active"  id="contributions">...Contributions API info, but actually nothing...</div><!--formerly Raven-->
+					<div role="tabpanel" class="tab-pane" id="repositories">...Repo API info...</div>
+					<div role="tabpanel" class="tab-pane" id="activity">...Activity API info...</div>
+				</div>
+			</div>
+		</br>
+			<input class="repoSearchBox" placeholder="Find a repository"></input>
+			<button class="edit">Search</button>
+			<ul class="repoTools">
+									<li>All</li>
+									<li>Public</li>
+									<li>Private</li>
+									<!--<li>Sources</li>
+									<li>Forks</li>
+									<li>Mirrors</li>-->
+								</ul>
+				<button class="newRepo"><img id="newRepoImage" src="images/repo.svg"> New</button>
+
+					
+
+			
+				<!--Below might be junk at this point.
+				<div class="repoName">
+				</div>
 			</div>
 
-			<div class="col-lg-7 right column">
-				<div class="tabButton">
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab"><img src="images/diff-added.svg"> Contributions</a></li>
-					<li role="presentation" class="active"><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab"><img src="images/repo.svg"> Repositories</a></li>
-					<li role="presentation" class="active"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab"><img src="images/rss.svg"> Public activity</a></li>
-				</ul>
-			</div>
-				<h2>Right Main Column</h2>
-			</div>
+			<div class="Armadillo tab-pane" role="tabpanel" id=
+		"activity">
+				</div>	
+				</div>
+				</div>
+			<div class="Rhino">
+				</div>
+			<div class="Raptor">
+				</div>-->
+			
+
+
+
 			<div class="col-lg-1 blankright">
 				<button class="edit"><img src="images/pencil.svg"/> Edit</button>
-				<h6>right blank</h6></div>
+				<!--<h6>right blank</h6></div>-->
 			</div>
 
 		</main>
@@ -71,6 +140,8 @@
 		<!--BootStrap CDN-->
 			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<script src="lodash.js"></script>
+		<!--moment.js-->
+		<script src="js/moment.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
